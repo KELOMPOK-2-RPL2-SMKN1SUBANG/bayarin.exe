@@ -67,11 +67,41 @@
     <Compile Include="Form_Dashboard.Designer.cs">
       <DependentUpon>Form_Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
+    <Compile Include="IsiTab\UC_Class.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IsiTab\UC_Class.Designer.cs">
+      <DependentUpon>UC_Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IsiTab\UC_Officer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IsiTab\UC_Officer.Designer.cs">
+      <DependentUpon>UC_Officer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IsiTab\UC_Pay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IsiTab\UC_Pay.Designer.cs">
+      <DependentUpon>UC_Pay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IsiTab\UC_Payments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IsiTab\UC_Payments.Designer.cs">
+      <DependentUpon>UC_Payments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IsiTab\UC_Students.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IsiTab\UC_Students.Designer.cs">
+      <DependentUpon>UC_Students.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Dashboard.resx">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </EmbeddedResource>
