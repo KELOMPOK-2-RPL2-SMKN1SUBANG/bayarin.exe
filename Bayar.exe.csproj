@@ -36,14 +36,16 @@
     <Reference Include="Guna.UI">
       <HintPath>..\Bayarin\bin\Debug\Guna.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Luthor.Lib">
-      <HintPath>..\..\..\..\Luthor.Lib.dll</HintPath>
+    <Reference Include="Luthor.lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Luthor.lib.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
       <HintPath>..\Bayarin\bin\Debug\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -97,6 +99,12 @@
     <Compile Include="IsiTab\UC_Students.Designer.cs">
       <DependentUpon>UC_Students.cs</DependentUpon>
     </Compile>
+    <Compile Include="IsiTab\UC_Tambah.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IsiTab\UC_Tambah.Designer.cs">
+      <DependentUpon>UC_Tambah.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form_Dashboard.resx">
@@ -104,6 +112,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IsiTab\UC_Class.resx">
+      <DependentUpon>UC_Class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IsiTab\UC_Officer.resx">
+      <DependentUpon>UC_Officer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IsiTab\UC_Pay.resx">
+      <DependentUpon>UC_Pay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IsiTab\UC_Payments.resx">
+      <DependentUpon>UC_Payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IsiTab\UC_Students.resx">
+      <DependentUpon>UC_Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IsiTab\UC_Tambah.resx">
+      <DependentUpon>UC_Tambah.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

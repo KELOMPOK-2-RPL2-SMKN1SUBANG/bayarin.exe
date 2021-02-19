@@ -1,6 +1,6 @@
 ﻿namespace Bayar.exe.IsiTab
 {
-    partial class UC_Payments
+    partial class UC_Tambah
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,11 +30,11 @@
         {
             this.SuspendLayout();
             // 
-            // UC_Payments
+            // UC_Tambah
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "UC_Payments";
+            this.Name = "UC_Tambah";
             this.Size = new System.Drawing.Size(1062, 593);
             this.ResumeLayout(false);
 

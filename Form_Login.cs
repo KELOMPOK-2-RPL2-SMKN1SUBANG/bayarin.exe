@@ -14,6 +14,7 @@ namespace Bayar.exe
 {
     public partial class Form_Login : Form
     {
+        
         public Form_Login()
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace Bayar.exe
                     this.Hide();
                     Dashboard.Show();
                 }
-                else if (Auth.Login($"SELECT * from siswa where nis='{txtusername.Text}' and birthday='{txtpassword.Text}' "))
+                else if (Auth.Login($"SELECT * from siswa where nis='{txtusername.Text}' and birthday='{txtpassword.Text}'"))
                 {
                     Form Dashboard = new Form_Dashboard();
                     this.Hide();
